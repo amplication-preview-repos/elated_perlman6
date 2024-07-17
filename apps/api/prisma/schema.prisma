@@ -1,0 +1,256 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Organization {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  address   String?
+  name      String?
+}
+
+model User {
+  id                               String                        @id @default(cuid())
+  createdAt                        DateTime                      @default(now())
+  updatedAt                        DateTime                      @updatedAt
+  firstName                        String?
+  lastName                         String?
+  username                         String                        @unique
+  email                            String?                       @unique
+  password                         String
+  roles                            Json
+  userRankings                     UserRanking[]
+  userOnboardings                  UserOnboarding[]
+  guildsMembersItems               GuildsMembers[]
+  announcements                    Announcement[]
+  transactionsPortugueseCoinsItems TransactionsPortugueseCoins[]
+  transactionsHonorGlories         TransactionsHonorGlory[]
+}
+
+model UserPrivateInfo {
+  id        String    @id @default(cuid())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  birthDate DateTime?
+  country   String?
+  city      String?
+  cc        String?
+  userId    String?
+}
+
+model UserPortugueseGoldenCoin {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  coins     Int?
+  userId    String?
+}
+
+model UserHonorGlory {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  honor     Int?
+  userId    String?
+}
+
+model UserRanking {
+  id        String    @id @default(cuid())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  score     Float?
+  date      DateTime?
+  rank      Int?
+  user_id   User?     @relation(fields: [user_idId], references: [id])
+  user_idId String?
+}
+
+model UserOnboarding {
+  id        String    @id @default(cuid())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  step      String?
+  completed Boolean?
+  date      DateTime?
+  user_id   User?     @relation(fields: [user_idId], references: [id])
+  user_idId String?
+}
+
+model Guild {
+  id                         String                  @id @default(cuid())
+  createdAt                  DateTime                @default(now())
+  updatedAt                  DateTime                @updatedAt
+  title                      String
+  slug                       String
+  guildsPrivateInfos         GuildsPrivateInfo[]
+  guildsMembersItems         GuildsMembers[]
+  guildsJoinInvitationsItems GuildsJoinInvitations[]
+  guildsCoinsItems           GuildsCoins[]
+  missionsItems              Missions?
+}
+
+model Missions {
+  id          String              @id @default(cuid())
+  createdAt   DateTime            @default(now())
+  updatedAt   DateTime            @updatedAt
+  description String?
+  status      EnumMissionsStatus?
+  dueDate     DateTime?
+  title       String?
+  guild       Guild?              @relation(fields: [guildId], references: [id])
+  guildId     String?             @unique
+}
+
+model GuildsPrivateInfo {
+  id              String    @id @default(cuid())
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  lastUpdated     DateTime?
+  billing_address String?
+  guild           Guild?    @relation(fields: [guildId], references: [id])
+  guildId         String?
+}
+
+model GuildsMembers {
+  id        String    @id @default(cuid())
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  joinedAt  DateTime?
+  role      String?
+  guild     Guild?    @relation(fields: [guildId], references: [id])
+  guildId   String?
+  user      User?     @relation(fields: [userId], references: [id])
+  userId    String?
+}
+
+model GuildsJoinInvitations {
+  id               String                           @id @default(cuid())
+  createdAt        DateTime                         @default(now())
+  updatedAt        DateTime                         @updatedAt
+  sentAt           DateTime?
+  responseAt       DateTime?
+  status           EnumGuildsJoinInvitationsStatus?
+  guild            Guild?                           @relation(fields: [guildId], references: [id])
+  guildId          String?
+  inviterUserId    String?
+  inviteeUserEmail String?
+  inviteeUserId    String?
+}
+
+model GuildsCoins {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  coins     Int?
+  guild     Guild?   @relation(fields: [guildId], references: [id])
+  guildId   String?
+}
+
+model UserInvitations {
+  id             String                     @id @default(cuid())
+  createdAt      DateTime                   @default(now())
+  updatedAt      DateTime                   @updatedAt
+  invitationCode String?
+  status         EnumUserInvitationsStatus?
+  invitationDate DateTime?
+  expirationDate DateTime?
+  invitedBy      String?
+  invitedUser    String?
+}
+
+model UserGodson {
+  id               String    @id @default(cuid())
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  relationshipDate DateTime?
+  godfather        String?
+  godson           String?
+}
+
+model Announcement {
+  id          String    @id @default(cuid())
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  title       String?
+  content     String?
+  publishDate DateTime?
+  isActive    Boolean?
+  user        User?     @relation(fields: [userId], references: [id])
+  userId      String?
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  description String?
+  price       Float?
+  isActive    Boolean?
+  stock       Int?
+  createdBy   String?
+  name        String?
+  category    String?
+}
+
+model ProductsCategory {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  name        String?
+  description String?
+}
+
+model Event {
+  id          String    @id @default(cuid())
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  title       String?
+  description String?
+  location    String?
+  startTime   DateTime?
+  endTime     DateTime?
+  isActive    Boolean?
+  organizer   String?
+}
+
+model TransactionsPortugueseCoins {
+  id              String    @id @default(cuid())
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  amount          Float?
+  timestamp       DateTime?
+  description     String?
+  transactionType String?
+  ReceivedUser    User[]
+  SenderId        String?
+}
+
+model TransactionsHonorGlory {
+  id              String    @id @default(cuid())
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  transactionType String?
+  amount          Float?
+  description     String?
+  timestamp       DateTime?
+  SenderUser      User[]
+  receiveruser    String?
+}
+
+enum EnumMissionsStatus {
+  Option1
+}
+
+enum EnumGuildsJoinInvitationsStatus {
+  Option1
+}
+
+enum EnumUserInvitationsStatus {
+  Option1
+}

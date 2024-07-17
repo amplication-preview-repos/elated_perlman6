@@ -1,0 +1,1838 @@
+[
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Organization",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Organization",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Organization",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Organization",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Organization",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Organization",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Organization",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Organization",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Organization",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Organization",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Organization",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPrivateInfo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPrivateInfo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPrivateInfo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPrivateInfo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPrivateInfo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPrivateInfo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPrivateInfo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPrivateInfo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPrivateInfo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPrivateInfo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPrivateInfo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPrivateInfo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPrivateInfo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPrivateInfo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPrivateInfo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserPortugueseGoldenCoin",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserHonorGlory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserHonorGlory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserHonorGlory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserHonorGlory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserHonorGlory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserHonorGlory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserHonorGlory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserHonorGlory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserHonorGlory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserHonorGlory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserHonorGlory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserHonorGlory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserHonorGlory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserHonorGlory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserHonorGlory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserRanking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserRanking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserRanking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserRanking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserRanking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserRanking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserRanking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserRanking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserRanking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserRanking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserRanking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserRanking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserRanking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserRanking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserRanking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserOnboarding",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserOnboarding",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserOnboarding",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserOnboarding",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserOnboarding",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserOnboarding",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserOnboarding",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserOnboarding",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserOnboarding",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserOnboarding",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserOnboarding",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserOnboarding",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserOnboarding",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserOnboarding",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserOnboarding",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Guild",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Guild",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Guild",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Guild",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Guild",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Guild",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Guild",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Guild",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Guild",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Guild",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Guild",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Guild",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Guild",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Guild",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Guild",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Missions",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Missions",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Missions",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Missions",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Missions",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Missions",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Missions",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Missions",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Missions",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Missions",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Missions",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Missions",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Missions",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Missions",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Missions",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsPrivateInfo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsPrivateInfo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsPrivateInfo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsPrivateInfo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsPrivateInfo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsPrivateInfo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsPrivateInfo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsPrivateInfo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsPrivateInfo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsPrivateInfo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsPrivateInfo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsPrivateInfo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsPrivateInfo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsPrivateInfo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsPrivateInfo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsMembers",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsMembers",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsMembers",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsMembers",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsMembers",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsMembers",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsMembers",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsMembers",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsMembers",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsMembers",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsMembers",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsMembers",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsMembers",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsMembers",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsMembers",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsJoinInvitations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsJoinInvitations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsJoinInvitations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsJoinInvitations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsJoinInvitations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsJoinInvitations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsJoinInvitations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsJoinInvitations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsJoinInvitations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsJoinInvitations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsJoinInvitations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsJoinInvitations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsJoinInvitations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsJoinInvitations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsJoinInvitations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsCoins",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsCoins",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsCoins",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsCoins",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsCoins",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsCoins",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsCoins",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsCoins",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsCoins",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsCoins",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsCoins",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsCoins",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "GuildsCoins",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "GuildsCoins",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "GuildsCoins",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserInvitations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserInvitations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserInvitations",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserInvitations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserInvitations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserInvitations",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserInvitations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserInvitations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserInvitations",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserInvitations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserInvitations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserInvitations",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserInvitations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserInvitations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserInvitations",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserGodson",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserGodson",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserGodson",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserGodson",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserGodson",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserGodson",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserGodson",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserGodson",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserGodson",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserGodson",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserGodson",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserGodson",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "UserGodson",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "UserGodson",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "UserGodson",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Announcement",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Announcement",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Announcement",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Announcement",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Announcement",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Product",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Product",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Product",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Product",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Product",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Product",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Product",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Product",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Product",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Product",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Product",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ProductsCategory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "ProductsCategory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "ProductsCategory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ProductsCategory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "ProductsCategory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "ProductsCategory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ProductsCategory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "ProductsCategory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "ProductsCategory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ProductsCategory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "ProductsCategory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "ProductsCategory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "ProductsCategory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "ProductsCategory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "ProductsCategory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Event",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Event",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Event",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Event",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Event",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "Event",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsPortugueseCoins",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsHonorGlory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsHonorGlory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsHonorGlory",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsHonorGlory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsHonorGlory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsHonorGlory",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsHonorGlory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsHonorGlory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsHonorGlory",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsHonorGlory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsHonorGlory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsHonorGlory",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "TransactionsHonorGlory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "member",
+    "resource": "TransactionsHonorGlory",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "moderator",
+    "resource": "TransactionsHonorGlory",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
